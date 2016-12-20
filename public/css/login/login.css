@@ -1,0 +1,37 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~登录注册~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.login .leftbox{padding-right:40px;}
+.login .rightbox{background:#fff;float:right;border-radius:5px;padding-left:0px;padding-right:0px;}
+.login .rightbox h4{border-bottom:1px #dddddd solid;padding:12px 0 12px 20px;font-size:16px;color:#666666;margin-bottom:0px;
+    background: -ms-linear-gradient(top, #ffffff,  #f3f3f3);        /* IE 10 */
+    background:-moz-linear-gradient(top,#ffffff,#f3f3f3);/*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ffffff), to(#f3f3f3));/*谷歌*/
+    background: -webkit-linear-gradient(top, #ffffff, #f3f3f3);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #ffffff, #f3f3f3);  /*Opera 11.10+*/
+}
+.login .rightbox .form-control{border:1px #ccc solid;border-radius:0px;height:37px;}
+.login .rightbox .form-group{position:relative;padding-top:40px;}
+.login .rightbox label{color:#474747;font-weight:normal;margin-top:20px;line-height:32px;margin-right:10px; font-style:normal; text-align:right;padding-left:0px;padding-right:0px;}
+.login .rightbox input{width:auto;}
+.login .rightbox .ph{width:100%;}
+.login .rightbox .yz{width:40%; display:inline-block}
+.login .rightbox .yzm{font-size: 12px;padding: 9px 12px;color: #6d6d6d;border-radius: 3px;background: #f3f3f3;border: 1px #c3c3c3 solid;-webkit-box-shadow: inset 0 1px 0px #fff;-moz-box-shadow: inset 0 1px 0px #fff;box-shadow: inset 0 1px 0px #fff; float:right;}
+.login .rightbox span{color:#474747;font-weight:normal;margin-top:20px;font-style:normal;padding-left:0px;padding-right:0px;}
+.login .rightbox label a{ display:block; position:absolute; right:20px;margin-top:-15px;color:#009abf;font-size:12px;}
+.login .rightbox .reg{line-height:35px; text-align:center;}
+.login .rightbox .reg button{margin:0px auto;}
+.login .rightbox .reg a{color:#009abf}
+.login .rightbox .reg span{margin-left:20px;color:#666666;}
+.login .rightbox .agree{font-size:12px; vertical-align:middle;line-height:45px;margin-bottom:0px;color:#979797; float:left;width:96%;padding-left:4%;}
+.login .rightbox .agree a{color:#009abf;}
+.login .rightbox .agree label{margin-top:0px;}
+.login .rightbox .alert{margin-top:20px;margin-bottom:0px;}
+@media (min-width:768px) {
+    .login{padding-top:90px;}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .login .rightbox{margin-top:40px;}
+    .login .leftbox{margin-top:40px;}
+}
+@media (min-width: 992px) {
+    .login{min-height:500px;margin-top:120px;padding-bottom:80px;}
+}
