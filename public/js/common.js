@@ -1,6 +1,6 @@
 
 /*****************************************************************
- jQuery Ajax封装通用类 (liuZl)
+ jQuery Ajax封装通用类 (longzitianya)
  *****************************************************************/
 ;(function($, window,document ){
     'use strict';
@@ -15,7 +15,7 @@
      * successfn 成功回调函数
      * errorfn 失败回调函数
      */
-    window.App.init();
+   App.init();
     $.ax=function(url, data, async, type, dataType, successfn) {
         async = (async===null || async==="" || typeof(async)==="undefined")? "true" : async;
         type = (type===null || type==="" || typeof(type)==="undefined")? "post" : type;
@@ -328,7 +328,7 @@
     	  // 添加监听器，在title里显示状态变化
     	  document.addEventListener(visibilityChange, function () {
     	    if (document[hidden]) {
-    	      document.title = '购买佳商云，轻松建网店！';
+    	      document.title = '老师您去哪儿？';
     	    } else {
     	      document.title = title;
     	    }
