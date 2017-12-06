@@ -33,8 +33,8 @@ var gulp = require('gulp'),
 	
 // 管理资源文件路径集合
 var config = {},
-	sourcePath="D:/2016.09.18/csbc-mpp-2.0.0/src/main/webapp/WEB-INF",
-	compilePath="D:/2016.09.18/csbc-mpp-2.0.0/src/main/webapp/WEB-INF/";
+	sourcePath="D:/2016.09.18/xxxx/src/main/webapp/WEB-INF",
+	compilePath="D:/2016.09.18/xxxx/src/main/webapp/WEB-INF/";
 
 
 // 源资源文件路径
@@ -415,8 +415,8 @@ gulp.task('help',function () {
 	console.log('*   # 重新打包压缩构建后的代码，压缩成tar.gz包       *');
     console.log('*     - gulp       newExportPackage                  *');
 	console.log('*                                                    *');
-	console.log('*   # 上传到219服务器                                *');
-    console.log('*     - gulp       upload219                         *');
+	console.log('*   # 上传到xxx服务器                                *');
+    console.log('*     - gulp       uploadxxx                        *');
 	console.log('*                                                    *');
 	console.log('*   # 自动化构建已完成，按 Ctrl + C 结束构建命令     *');
     console.log('*     - Ctrl + C                                     *');
