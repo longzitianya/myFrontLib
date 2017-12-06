@@ -1,2 +1,2 @@
-# neusoftFrontLib
+# myFrontLib
 first  front-edd   lib
